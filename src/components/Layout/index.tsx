@@ -2,7 +2,7 @@
 import { styled } from "styled-components";
 
 // importing types
-import { LayoutPropType } from "../../types/layout";
+import { LayoutPropType } from "../../types/types";
 
 // importing components
 import Navbar from "../Navbar";
