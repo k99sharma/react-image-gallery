@@ -6,8 +6,7 @@ import Brand from "../Brand";
 
 // navbar styles component
 const StyledNavbar = styled.div`
-  padding: 0.2rem 0.2rem;
-  margin: 0.5rem 0.5rem;
+  margin: 1rem 0 1rem 0;
 `;
 
 // navbar component

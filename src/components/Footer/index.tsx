@@ -1,12 +1,20 @@
 // imports
 import { styled } from "styled-components";
 
+// importing components
+import SubText from "../SubText/SubText";
+
 // footer styled component
 const StyledFooter = styled.div`
-  background-color: red;
+  text-align: center;
+  padding: 0.2rem;
 `;
 
 // footer component
 export default function Footer() {
-  return <StyledFooter>Footer</StyledFooter>;
+  return (
+    <StyledFooter>
+      <SubText>Copyright © {new Date().getFullYear()} Pixel</SubText>
+    </StyledFooter>
+  );
 }

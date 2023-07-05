@@ -5,7 +5,9 @@ import { styled } from "styled-components";
 import { TextPropType } from "../../types/types";
 
 // text styled component
-const StyledText = styled.p``;
+const StyledText = styled.p`
+  font-size: 16px;
+`;
 
 // text component
 export default function Text({ children }: TextPropType) {

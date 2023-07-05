@@ -16,3 +16,8 @@ export type BrandPropType = {
     height?: number;
     width?: number;
 }
+
+// sub text prop types
+export type SubTextPropType = {
+    children: ReactNode;
+}
